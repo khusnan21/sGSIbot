@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
    inputs:
       ROM_URL:
-        description: 'ROM_URL'
+        description: 'https://onboardcloud.dl.sourceforge.net/project/ricevayu/rice/riceDroid-13.0-202302241236-vayu-v10.2-PIXEL-OFFICIAL.zip'
         required: true
         default: ''
       TYPE:
